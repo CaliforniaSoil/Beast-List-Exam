@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		84014AB41FC1FCC70031151D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84014AB31FC1FCC70031151D /* AppDelegate.swift */; };
-		84014AB61FC1FCC70031151D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84014AB51FC1FCC70031151D /* ViewController.swift */; };
 		84014AB91FC1FCC70031151D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84014AB71FC1FCC70031151D /* Main.storyboard */; };
 		84014ABC1FC1FCC70031151D /* BeastListExam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84014ABA1FC1FCC70031151D /* BeastListExam.xcdatamodeld */; };
 		84014ABE1FC1FCC70031151D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84014ABD1FC1FCC70031151D /* Assets.xcassets */; };
 		84014AC11FC1FCC70031151D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84014ABF1FC1FCC70031151D /* LaunchScreen.storyboard */; };
 		84014ACC1FC1FCC70031151D /* BeastListExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84014ACB1FC1FCC70031151D /* BeastListExamTests.swift */; };
 		84014AD71FC1FCC70031151D /* BeastListExamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84014AD61FC1FCC70031151D /* BeastListExamUITests.swift */; };
+		84014AE51FC1FE070031151D /* BeastListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84014AE41FC1FE070031151D /* BeastListTableViewController.swift */; };
+		84014AE71FC1FE2F0031151D /* FinishedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84014AE61FC1FE2F0031151D /* FinishedTableViewController.swift */; };
+		84014AE91FC1FE4C0031151D /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84014AE81FC1FE4C0031151D /* AddItemViewController.swift */; };
+		84014AEB1FC201650031151D /* BeastListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84014AEA1FC201650031151D /* BeastListCell.swift */; };
+		84014AED1FC2017C0031151D /* FinishedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84014AEC1FC2017C0031151D /* FinishedCell.swift */; };
+		84014AEF1FC2019E0031151D /* BeastListCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84014AEE1FC2019E0031151D /* BeastListCellDelegate.swift */; };
+		84014AF11FC201E20031151D /* AddItemViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84014AF01FC201E20031151D /* AddItemViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,6 @@
 /* Begin PBXFileReference section */
 		84014AB01FC1FCC60031151D /* BeastListExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeastListExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84014AB31FC1FCC70031151D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84014AB51FC1FCC70031151D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84014AB81FC1FCC70031151D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84014ABB1FC1FCC70031151D /* BeastListExam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeastListExam.xcdatamodel; sourceTree = "<group>"; };
 		84014ABD1FC1FCC70031151D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		84014AD21FC1FCC70031151D /* BeastListExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeastListExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84014AD61FC1FCC70031151D /* BeastListExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeastListExamUITests.swift; sourceTree = "<group>"; };
 		84014AD81FC1FCC70031151D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84014AE41FC1FE070031151D /* BeastListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeastListTableViewController.swift; sourceTree = "<group>"; };
+		84014AE61FC1FE2F0031151D /* FinishedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedTableViewController.swift; sourceTree = "<group>"; };
+		84014AE81FC1FE4C0031151D /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		84014AEA1FC201650031151D /* BeastListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeastListCell.swift; sourceTree = "<group>"; };
+		84014AEC1FC2017C0031151D /* FinishedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedCell.swift; sourceTree = "<group>"; };
+		84014AEE1FC2019E0031151D /* BeastListCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeastListCellDelegate.swift; sourceTree = "<group>"; };
+		84014AF01FC201E20031151D /* AddItemViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +111,14 @@
 		84014AB21FC1FCC60031151D /* BeastListExam */ = {
 			isa = PBXGroup;
 			children = (
+				84014AE41FC1FE070031151D /* BeastListTableViewController.swift */,
+				84014AEA1FC201650031151D /* BeastListCell.swift */,
+				84014AEE1FC2019E0031151D /* BeastListCellDelegate.swift */,
+				84014AE61FC1FE2F0031151D /* FinishedTableViewController.swift */,
+				84014AEC1FC2017C0031151D /* FinishedCell.swift */,
+				84014AE81FC1FE4C0031151D /* AddItemViewController.swift */,
+				84014AF01FC201E20031151D /* AddItemViewControllerDelegate.swift */,
 				84014AB31FC1FCC70031151D /* AppDelegate.swift */,
-				84014AB51FC1FCC70031151D /* ViewController.swift */,
 				84014AB71FC1FCC70031151D /* Main.storyboard */,
 				84014ABD1FC1FCC70031151D /* Assets.xcassets */,
 				84014ABF1FC1FCC70031151D /* LaunchScreen.storyboard */,
@@ -262,9 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84014AE91FC1FE4C0031151D /* AddItemViewController.swift in Sources */,
+				84014AED1FC2017C0031151D /* FinishedCell.swift in Sources */,
 				84014ABC1FC1FCC70031151D /* BeastListExam.xcdatamodeld in Sources */,
-				84014AB61FC1FCC70031151D /* ViewController.swift in Sources */,
 				84014AB41FC1FCC70031151D /* AppDelegate.swift in Sources */,
+				84014AEF1FC2019E0031151D /* BeastListCellDelegate.swift in Sources */,
+				84014AEB1FC201650031151D /* BeastListCell.swift in Sources */,
+				84014AF11FC201E20031151D /* AddItemViewControllerDelegate.swift in Sources */,
+				84014AE51FC1FE070031151D /* BeastListTableViewController.swift in Sources */,
+				84014AE71FC1FE2F0031151D /* FinishedTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +455,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW4L9B5JK4;
 				INFOPLIST_FILE = BeastListExam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dojo.BeastListExam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,7 +471,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW4L9B5JK4;
 				INFOPLIST_FILE = BeastListExam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dojo.BeastListExam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
